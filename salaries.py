@@ -156,8 +156,31 @@ print(sal_df_rand)
 
 
 
+    ## Alternatively
+    # data['experience_level'] = data['experience_level'].replace({
+    #     'SE': 'Senior',
+    #     'EN': 'Entry level',
+    #     'EX': 'Executive level',
+    #     'MI': 'Mid/Intermediate level',
+    # })
 
-
+    # data['employment_type'] = data['employment_type'].replace({
+    #     'FL': 'Freelancer',
+    #     'CT': 'Contractor',
+    #     'FT' : 'Full-time',
+    #     'PT' : 'Part-time'
+    # })
+    # data['company_size'] = data['company_size'].replace({
+    #     'S': 'SMALL',
+    #     'M': 'MEDIUM',
+    #     'L' : 'LARGE',
+    # })
+    # data['remote_ratio'] = data['remote_ratio'].astype(str)
+    # data['remote_ratio'] = data['remote_ratio'].replace({
+    #     '0': 'On-Site',
+    #     '50': 'Half-Remote',
+    #     '100' : 'Full-Remote',
+    # })
 
     # if "Data Scientist" in title:*
     #     return "Data Scientist"
